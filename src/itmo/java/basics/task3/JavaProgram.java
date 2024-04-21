@@ -16,13 +16,12 @@ public class JavaProgram {
         System.out.println("Возраст: " + home.howOld() + "год");
         House rent = new House(15, 2003, "Савушкина 140");
         System.out.println(rent);
-        System.out.println("Возраст: " + rent.howOld() + "год");
-//        Tree tree1 = new Tree("Дуб",440, false);
-//        System.out.println(tree1);
-//        Tree tree2 = new Tree(880, "Береза");
-//        System.out.println(tree2);
-//        Tree tree3 = new Tree();
-//        System.out.println(tree3);
+        System.out.println("Возраст: " + rent.howOld() + " год");
+        Tree tree1 = new Tree("Дуб",440, false);
+        System.out.println(tree1);
+        Tree tree2 = new Tree(880, "Береза");
+        System.out.println(tree2);
+        Tree tree3 = new Tree();
     }
 }
 
