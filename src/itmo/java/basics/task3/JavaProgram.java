@@ -13,7 +13,7 @@ public class JavaProgram {
         System.out.println(car2.toString());
         House home = new House(25, 2008, "Коллонтай 5/1");
         System.out.println(home);
-        System.out.println("Возраст: " + home.howOld() + "год");
+        System.out.println("Возраст: " + home.howOld() + " год");
         House rent = new House(15, 2003, "Савушкина 140");
         System.out.println(rent);
         System.out.println("Возраст: " + rent.howOld() + " год");
