@@ -143,7 +143,7 @@ public class Calculator {
     public static double div(int a, int b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -153,7 +153,7 @@ public class Calculator {
     public static double div(long a, int b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -163,7 +163,7 @@ public class Calculator {
     public static double div(int a, long b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -173,7 +173,7 @@ public class Calculator {
     public static double div(long a, long b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -183,7 +183,7 @@ public class Calculator {
     public static double div(double a, double b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -193,7 +193,7 @@ public class Calculator {
     public static double div(double a, int b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -203,7 +203,7 @@ public class Calculator {
     public static double div(int a, double b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -213,7 +213,7 @@ public class Calculator {
     public static double div(double a, long b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
@@ -223,7 +223,7 @@ public class Calculator {
     public static double div(long a, double b) throws ArithmeticException {
         double i = 0;
         if (b != 0){
-            i = a / b;
+            i = (double)(a / b);
             return i;
         } else {
             throw new ArithmeticException("Деление на ноль!");
