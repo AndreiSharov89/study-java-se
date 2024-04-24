@@ -19,6 +19,7 @@ public class Tree {
     public Tree() {
         System.out.println("Пустой конструктор без параметров сработал");
     }
+
     @Override
     public String toString() {
         return "Tree{" +
