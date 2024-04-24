@@ -3,7 +3,7 @@ package itmo.java.basics.task3;
 public class Study {
     private String course;
 
-    public Study(String course){
+    public Study(String course) {
         this.course = course;
     }
 
