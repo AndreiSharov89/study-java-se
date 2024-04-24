@@ -9,13 +9,13 @@ public class Main {
         Scanner scanner2 = new Scanner(System.in);
         Scanner scanner3 = new Scanner(System.in);
         System.out.println("Введите операцию вида:\n2\n*\n2\n");
-        //int a = scanner1.nextInt();
+        int a = scanner1.nextInt();
         //long a = scanner1.nextLong();
-        double a = scanner1.nextDouble();
+        //double a = scanner1.nextDouble();
         char sign = scanner2.nextLine().charAt(0);
-        //int b = scanner3.nextInt();
+        int b = scanner3.nextInt();
         //long b = scanner3.nextLong();
-        double b = scanner3.nextDouble();
+        //double b = scanner3.nextDouble();
         double result = 0;
 
         switch (sign) {
