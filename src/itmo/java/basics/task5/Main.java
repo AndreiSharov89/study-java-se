@@ -24,7 +24,8 @@ public class Main {
             System.out.println("Цензурируем");
             System.out.print("Введите текст: ");
             str = getWord();
-            System.out.println("Цензурированная версия: " + censorship(str));
+            String banWord = "бяка";
+            System.out.println("Цензурированная версия: " + censorship(banWord, str));
             // 4
             System.out.println("Считаем вхождения");
             System.out.print("Введите текст: ");
@@ -70,8 +71,9 @@ public class Main {
             return (s.trim().toLowerCase().equals(buf.reverse().toString()));
         }
 
-        public static String censorship(String s) {
-            return s.replaceAll("бяка", "[вырезано цензурой]");
+        public static String censorship(String b, String s) {
+            String c = "[вырезано цензурой]";
+            return s.replaceAll(b, c);
         }
 
         public static int substringCount(String str, String sub) {
